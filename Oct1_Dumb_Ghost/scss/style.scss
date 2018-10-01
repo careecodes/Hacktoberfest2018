@@ -1,0 +1,16 @@
+body {
+	background: #000;
+}
+
+.ghost {
+	background: url('https://i.imgur.com/85o6OGh.png');
+	height: 500px;
+	width: 500px;
+	animation: waving .5s steps(2) infinite;
+}
+
+@keyframes waving {
+	100% {
+		background-position: 1000px 0;
+	}
+}
